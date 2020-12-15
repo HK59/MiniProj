@@ -28,7 +28,7 @@ public class PhoneApp {
 			case 1:
 				System.out.println("<1.리스트>");
 				for (int i = 0; i < plist.size(); i++) {
-					System.out.print("");
+					System.out.print(i+". ");
 					plist.get(i).showInfo();
 				}
 				break;
@@ -59,7 +59,7 @@ public class PhoneApp {
 			case 4:
 				System.out.println("<4.검색>");
 			case 5:
-				System.out.println("\n******************************************");
+				System.out.println("******************************************");
 				System.out.println("*               감사합니다               *");
 				System.out.println("******************************************");
 				a = false;
